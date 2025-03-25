@@ -1,5 +1,6 @@
 package net.artemoluwo.modid;
 
+import net.artemoluwo.modid.block.ModBlocks;
 import net.artemoluwo.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class TutorialMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModBlocks.RegisterModBlocks();
 	}
 }
